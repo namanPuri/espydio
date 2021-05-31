@@ -52,7 +52,7 @@ i.e.,
 8. [allToMp3](#allToMp3)
 9. [tth](#th)
 
-To get a list of commands with short description, you can run
+To get a list of commands, in command-line tool itself with short description, you can run
 
 ```shell
 >espydio -h
@@ -72,13 +72,40 @@ To get the description of using a particular command you can run:
 
 It will output the command usage and decription of it's required parameters.
 
-1. #### info <a name="info"></a>
+## 1. info <a name="info"></a>
 
-**Description:** This command can be used to print the details of the given audio file. 
+**Description:** This command can be used to print the details of the given audio file.
 
 **Usage:** espydio info [-h] -n NAME_OF_FILE
 
 **Example:**
 
-![espydioHelp](docs/images/info_usage.PNG)
+![info-usage](docs/images/info_usage.PNG)
 
+## 2. toWav <a name="toWav"></a>
+
+**Description:** This command converts the given MP3 or OGG file to WAV format with a sampling rate of 24khz and with sample encoding as 8-bit unsigned-integer PCM.
+
+**Usage:** espydio toWav [-h] -i INPUT_FILE_NAME -o OUTPUT_FILE_NAME
+
+**Example:**
+
+![toWav-usage](docs/images/toWav_usage.PNG)
+
+**Comparing the details of MP3 file and converted Wav file.**
+
+![Comparison](docs/images/comparison.PNG)
+
+## 3. toHex <a name="toHex"></a>
+
+**Description:** This command converts the given WAV file to arduino-ide supported C header file containing the hex codes of the samples stored in an array with the required type qualifier to store the array in flash memory of the controller and not in RAM.
+
+**Usage:** usage: espydio toHex [-h] -n WAV_FILE_NAME -a ARRAY_NAME -o HEX_FILE_NAME
+
+**Example:**
+
+![toHex-usage](docs/images/toHex_usage.PNG)
+
+**C header would like this.**
+
+![C-Header](docs/images/c-header.PNG)
