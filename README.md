@@ -27,7 +27,7 @@
 Once ***espydio*** is installed, open any command-line tool and run :
 
 ```shell
-    ...>espydio
+    >espydio
 ```
 
 If everything is good upto here, this must be recognised and you will get this as output.
@@ -36,9 +36,26 @@ If everything is good upto here, this must be recognised and you will get this a
 usage: espydio [-h] {info,toWav,toHex,tts,stream,allToWav,allToHex,allToMp3,tth} ...
 espydio: error: the following arguments are required: command
 ```
+i.e.,
+![Installation test](docs/images/espydio_check.PNG)
 
 ### espydio - List of Commands
 
-1. [info](#info)
+To get a list of commands with short description, you can run
 
-This is the introduction <a name="info"></a>
+```shell
+>espydio -h
+```
+
+![espydioHelp](docs/images/help.PNG)
+1. [info](#info)
+2. [toWav](#toWav)
+3. [toHex](#toHex)
+4. [tts](#tts)
+5. [stream](#stream)
+6. [allToWav](#allToWav)
+7. [allTohex](#allToHex)
+8. [allToMp3](#allToMp3)
+9. [tth](#th)
+
+### Command Descripti
