@@ -36,18 +36,12 @@ If everything is good upto here, this must be recognised and you will get this a
 usage: espydio [-h] {info,toWav,toHex,tts,stream,allToWav,allToHex,allToMp3,tth} ...
 espydio: error: the following arguments are required: command
 ```
+
 i.e.,
 ![Installation test](docs/images/espydio_check.PNG)
 
 ### espydio - List of Commands
 
-To get a list of commands with short description, you can run
-
-```shell
->espydio -h
-```
-
-![espydioHelp](docs/images/help.PNG)
 1. [info](#info)
 2. [toWav](#toWav)
 3. [toHex](#toHex)
@@ -58,4 +52,16 @@ To get a list of commands with short description, you can run
 8. [allToMp3](#allToMp3)
 9. [tth](#th)
 
-### Command Descripti
+To get a list of commands with short description, you can run
+
+```shell
+>espydio -h
+```
+
+![espydioHelp](docs/images/help.PNG)
+
+### Command Descriptions and Examples
+
+1. #### Info <a name="info"></a>
+
+**Description:** This command can be used to print the details of the audio file.
