@@ -14,10 +14,16 @@
 
     ```pip install git+https://github.com/namanPuri/espydio.git```
 
-    or
+    or, **Simply clone the git repository and install setup.py.**
 
-```shell
-git clone https://github.com/rabitt/pysox.git
-cd pysox
-python setup.py install
-```
+    ```shell
+    git clone https://github.com/namanPuri/espydio.git
+    cd pysox
+    python setup.py install
+    ```
+
+## USAGE
+
+Once ***espydio*** is installed, open any command-line tool and run :
+<br/>
+    ...><span style="color:yellow">espydio</span>
