@@ -62,6 +62,23 @@ To get a list of commands with short description, you can run
 
 ### Command Descriptions and Examples
 
-1. #### Info <a name="info"></a>
+To get the description of using a particular command you can run:
 
-**Description:** This command can be used to print the details of the audio file.
+```shell
+>espydio <name of command> -h
+```
+
+![Command Usage](docs/images/command_usage.PNG)
+
+It will output the command usage and decription of it's required parameters.
+
+1. #### info <a name="info"></a>
+
+**Description:** This command can be used to print the details of the given audio file. 
+
+**Usage:** espydio info [-h] -n NAME_OF_FILE
+
+**Example:**
+
+![espydioHelp](docs/images/info_usage.PNG)
+
