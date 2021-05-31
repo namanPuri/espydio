@@ -25,5 +25,20 @@
 ## USAGE
 
 Once ***espydio*** is installed, open any command-line tool and run :
-<br/>
-    ...><span style="color:yellow">espydio</span>
+
+```shell
+    ...>espydio
+```
+
+If everything is good upto here, this must be recognised and you will get this as output.
+
+```shell
+usage: espydio [-h] {info,toWav,toHex,tts,stream,allToWav,allToHex,allToMp3,tth} ...
+espydio: error: the following arguments are required: command
+```
+
+### espydio - List of Commands
+
+1. [info](#info)
+
+This is the introduction <a name="info"></a>
