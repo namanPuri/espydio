@@ -35,7 +35,7 @@ def Stream(RouteTo,FileToStream,FileType):
                                 data = fwav.read(1024)
                     return Response(generate(), mimetype="audio/mpeg")  
 
-            print("Streaming at : http://192.168.1.16:5000/" + RouteTo)
+            #print("Streaming at : http://192.168.1.16:5000/" + RouteTo)
     
             app.run(
                 debug=True,

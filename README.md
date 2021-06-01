@@ -18,7 +18,7 @@
 
     ```shell
     git clone https://github.com/namanPuri/espydio.git
-    cd pysox
+    cd espydio
     python setup.py install
     ```
 
@@ -74,6 +74,8 @@ It will output the command usage and decription of it's required parameters.
 
 ## 1. info <a name="info"></a>
 
+---
+
 **Description:** This command can be used to print the details of the given audio file.
 
 **Usage:** espydio info [-h] -n NAME_OF_FILE
@@ -83,6 +85,8 @@ It will output the command usage and decription of it's required parameters.
 ![info-usage](docs/images/info_usage.PNG)
 
 ## 2. toWav <a name="toWav"></a>
+
+---
 
 **Description:** This command converts the given MP3 or OGG file to WAV format with a sampling rate of 24khz and with sample encoding as 8-bit unsigned-integer PCM.
 
@@ -98,6 +102,8 @@ It will output the command usage and decription of it's required parameters.
 
 ## 3. toHex <a name="toHex"></a>
 
+---
+
 **Description:** This command converts the given WAV file to arduino-ide supported C header file containing the hex codes of the samples stored in an array with the required type qualifier to store the array in flash memory of the controller and not in RAM.
 
 **Usage:** espydio toHex [-h] -n WAV_FILE_NAME -a ARRAY_NAME -o HEX_FILE_NAME
@@ -111,6 +117,8 @@ It will output the command usage and decription of it's required parameters.
 ![C-Header](docs/images/c-header.PNG)
 
 ## 4. tts <a name="tts"></a>
+
+---
 
 **Description:** This command converts the given text to speech(MP3 format), with the desired language settings.
 
