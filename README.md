@@ -38,7 +38,7 @@ espydio: error: the following arguments are required: command
 ```
 
 i.e.,
-![Installation test](docs/images/espydio_check.PNG)
+![Installation test](https://github.com/namanPuri/espydio/blob/master/docs/images/espydio_check.PNG)
 
 ### espydio - List of Commands
 

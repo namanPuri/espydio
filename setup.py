@@ -8,11 +8,12 @@ setup(name='espydio',
       description='Command Line Utility for audio manipulations',
       long_description=long_description,
       long_description_content_type = 'text/markdown',
-      url='',
+      url='https://github.com/namanPuri/espydio',
       author='Naman Puri',
       author_email='namanpuri1712@gmail.com',
-      license='MIT',
       include_package_data=True,
+      keywords='esp32 sound conversions',
+      license='BSD-3-Clause',
       entry_points ={
             'console_scripts': [
                 'espydio = espydio.script_espydio:main'
@@ -23,7 +24,7 @@ setup(name='espydio',
       classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: Windows',
+        'Operating System :: Microsoft :: Windows',
         'Programming Language :: Python :: 3',
         'Topic :: Utilities',
       ],
