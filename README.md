@@ -52,7 +52,7 @@ i.e.,
 6. [allToWav](#allToWav)
 7. [allTohex](#allToHex)
 8. [allToMp3](#allToMp3)
-9. [tth](#th)
+9. [tth](#tth)
 
 To get a list of commands, in command-line tool itself with short description, you can run
 
