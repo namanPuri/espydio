@@ -20,7 +20,7 @@ def main():
             |     /---'\  |          |    | |     |               |    |  \  | |      |     | |  \  |    | |      |  \ 
             /   ,'      \  `.__,     /    / /---/ /----/          /    /   \ /  `.__,  `.__.' /   \ /---/  /----/ /   \\
                                                                                                                                                                                                                                                                                                                                                                                     
-                                                                                                                                            
+                                                                                                               
             '''))
     subparser = parser.add_subparsers(dest = 'command',required=True)
 
