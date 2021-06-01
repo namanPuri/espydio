@@ -100,7 +100,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Description:** This command converts the given WAV file to arduino-ide supported C header file containing the hex codes of the samples stored in an array with the required type qualifier to store the array in flash memory of the controller and not in RAM.
 
-**Usage:** usage: espydio toHex [-h] -n WAV_FILE_NAME -a ARRAY_NAME -o HEX_FILE_NAME
+**Usage:** espydio toHex [-h] -n WAV_FILE_NAME -a ARRAY_NAME -o HEX_FILE_NAME
 
 **Example:**
 
@@ -109,3 +109,13 @@ It will output the command usage and decription of it's required parameters.
 **C header would like this.**
 
 ![C-Header](docs/images/c-header.PNG)
+
+## 4. tts <a name="tts"></a>
+
+**Description:** This command converts the given text to speech(MP3 format), with the desired language settings.
+
+**Usage:** espydio tts [-h] -t TEXT -l LANGUAGE -o OUTPUT_MP3_FILE_NAME
+
+**Example:**
+
+![tts-usage](docs/images/tts_usage.PNG)
