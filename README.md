@@ -60,7 +60,7 @@ To get a list of commands, in command-line tool itself with short description, y
 >espydio -h
 ```
 
-![espydioHelp](docs/images/help.PNG)
+![espydioHelp](https://github.com/namanPuri/espydio/blob/master/docs/images/help.PNG)
 
 ### Command Descriptions and Examples
 
@@ -72,7 +72,7 @@ To get the description of using a particular command you can run:
 >espydio <name of command> -h
 ```
 
-![Command Usage](docs/images/command_usage.PNG)
+![Command Usage](https://github.com/namanPuri/espydio/blob/master/docs/images/command_usage.PNG)
 
 It will output the command usage and decription of it's required parameters.
 
@@ -86,7 +86,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![info-usage](docs/images/info_usage.PNG)
+![info-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/info_usage.PNG)
 
 ## 2. toWav <a name="toWav"></a>
 
@@ -98,11 +98,11 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![toWav-usage](docs/images/toWav_usage.PNG)
+![toWav-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/toWav_usage.PNG)
 
 **Comparing the details of MP3 file and converted Wav file.**
 
-![Comparison](docs/images/comparison.PNG)
+![Comparison](https://github.com/namanPuri/espydio/blob/master/docs/images/comparison.PNG)
 
 ## 3. toHex <a name="toHex"></a>
 
@@ -114,11 +114,11 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![toHex-usage](docs/images/toHex_usage.PNG)
+![toHex-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/toHex_usage.PNG)
 
 **C header would like this.**
 
-![C-Header](docs/images/c-header.PNG)
+![C-Header](https://github.com/namanPuri/espydio/blob/master/docs/images/c-header.PNG)
 
 ## 4. tts <a name="tts"></a>
 
@@ -130,7 +130,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![tts-usage](docs/images/tts_usage.PNG)
+![tts-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/tts_usage.PNG)
 
 ## 5. stream <a name="stream"></a>
 
@@ -142,7 +142,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![stream-usage](docs/images/stream_usage.PNG)
+![stream-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/stream_usage.PNG)
 
 ## 6. allToWav <a name="allToWav"></a>
 
@@ -154,7 +154,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![allToWav-usage](docs/images/allToWav_usage.PNG)
+![allToWav-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/allToWav_usage.PNG)
 
 ## 7. allToHex <a name="allToHex"></a>
 
@@ -166,11 +166,11 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![allToHex-usage](docs/images/allToHex_usage.PNG)
+![allToHex-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/allToHex_usage.PNG)
 
 **C-header file would look like this:**
 
-![C-header](docs/images/MIMO_header.PNG)
+![C-header](https://github.com/namanPuri/espydio/blob/master/docs/images/MIMO_header.PNG)
 
 ## 8. allToMp3 <a name="allToMp3"></a>
 
@@ -182,7 +182,7 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![allToMp3-usage](docs/images/allToMp3_usage.PNG)
+![allToMp3-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/allToMp3_usage.PNG)
 
 ## 9. tth <a name="tth"></a>
 
@@ -194,8 +194,8 @@ It will output the command usage and decription of it's required parameters.
 
 **Example:**
 
-![tth-usage](docs/images/tth_usage.PNG)
+![tth-usage](https://github.com/namanPuri/espydio/blob/master/docs/images/tth_usage.PNG)
 
 **C-header would look like:**
 
-![tth-header](docs/images/tth_header.PNG)
+![tth-header](https://github.com/namanPuri/espydio/blob/master/docs/images/tth_header.PNG)
