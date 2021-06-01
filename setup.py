@@ -4,8 +4,8 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(name='espydio',
-      version='0.0.1',
-      description='Command Line Utility for audio manipulations',
+      version='0.0.3',
+      description='A command line utility built using python to automate audio file conversions, thereby assisting audio playing on ESP32',
       long_description=long_description,
       long_description_content_type = 'text/markdown',
       url='https://github.com/namanPuri/espydio',
