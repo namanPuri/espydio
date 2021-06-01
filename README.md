@@ -42,6 +42,8 @@ i.e.,
 
 ### espydio - List of Commands
 
+---
+
 1. [info](#info)
 2. [toWav](#toWav)
 3. [toHex](#toHex)
@@ -61,6 +63,8 @@ To get a list of commands, in command-line tool itself with short description, y
 ![espydioHelp](docs/images/help.PNG)
 
 ### Command Descriptions and Examples
+
+---
 
 To get the description of using a particular command you can run:
 
@@ -127,3 +131,71 @@ It will output the command usage and decription of it's required parameters.
 **Example:**
 
 ![tts-usage](docs/images/tts_usage.PNG)
+
+## 5. stream <a name="stream"></a>
+
+---
+
+**Description:** Using this command, you can make a server using python and host any MP3 or WAV files of any duration on it. ESP32 can then be programmed to take the data from the server and play the same. You can verify that the server is created by copying the address appended with page to route, and running that address on any browser on same or some different device provided it should be connected to the same network.
+
+**Usage:** espydio stream [-h] -r PAGE_TO_ROUTE -f FILE_NAME -t FILE_TYPE
+
+**Example:**
+
+![stream-usage](docs/images/stream_usage.PNG)
+
+## 6. allToWav <a name="allToWav"></a>
+
+---
+
+**Description:** This command converts all the MP3 files in the given directory to the corresponding WAV files, and store them in a folder with name WAV files in the working directory. The converted WAV files would have a sampling rate of 24khz and sample encoding as 8-bit unsigned-integer PCM. The name of the converted WAV file will be same as that of the MP3 one.
+
+**Usage:** espydio allToWav [-h] [-i PATH_TO_FOLDER]
+
+**Example:**
+
+![allToWav-usage](docs/images/allToWav_usage.PNG)
+
+## 7. allToHex <a name="allToHex"></a>
+
+---
+
+**Description:** This command converts all the WAV files in the given directory to their corresponding hex codes and save them in a C-header file. The C-header file generated would have names of all arrays which it contains, commented in the beginning.
+
+**Usage:** espydio allToHex [-h] [-i PATH_TO_FOLDER] -n HEX_FILE_NAME
+
+**Example:**
+
+![allToHex-usage](docs/images/allToHex_usage.PNG)
+
+**C-header file would look like this:**
+
+![C-header](docs/images/MIMO_header.PNG)
+
+## 8. allToMp3 <a name="allToMp3"></a>
+
+---
+
+**Description:** This command converts the given texts or a range of numbers with the given step size and with specified language settings to speech in Mp3 format. The arguments for text and for numbers are mutually exclusive. The files generated would be stored in a folder with name MP3 files in the working directory.
+
+**Usage:** espydio allToMp3 [-h] (-t TEXT [TEXT ...] | -r   ) -l LANGUAGE
+
+**Example:**
+
+![allToMp3-usage](docs/images/allToMp3_usage.PNG)
+
+## 9. tth <a name="tth"></a>
+
+---
+
+**Description:** This command converts the given texts or a range of numbers with the given step size and with specified language settings to their corresponding hex codes and save them all in a C-header file. The arguments for text and for numbers are mutually exclusive here too. The hex file generated with the given name will save in the folder with name as Hex file in the working directory.
+
+**Usage:** espydio tth [-h] (-t TEXT [TEXT ...] | -r   ) -l LANGUAGE -n HEX_FILE_NAME
+
+**Example:**
+
+![tth-usage](docs/images/tth_usage.PNG)
+
+**C-header would look like:**
+
+![tth-header](docs/images/tth_header.PNG)
